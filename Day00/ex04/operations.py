@@ -6,7 +6,7 @@
 #    By: frfrey <frfrey@student.42lyon.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/05/25 15:55:11 by frfrey            #+#    #+#              #
-#    Updated: 2020/05/25 17:21:18 by frfrey           ###   ########lyon.fr    #
+#    Updated: 2020/05/25 17:22:36 by frfrey           ###   ########lyon.fr    #
 #                                                                              #
 # **************************************************************************** #
 
@@ -30,6 +30,7 @@ def operations(nb1, nb2):
     else:
         print("Remainder:\tERROR (modulo by zero)")
 
+
 def main():
     if (len(sys.argv) == 1):
         print("Usage: python operation.py <number1> <number2>\n")
@@ -43,6 +44,7 @@ def main():
     else:
         print("InputError: too many arguments\n")
         print("Usage: python operation.py <number1> <number2>")
+
 
 if __name__ == "__main__":
     main()
