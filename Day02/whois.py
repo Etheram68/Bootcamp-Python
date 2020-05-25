@@ -6,13 +6,13 @@
 #    By: frfrey <frfrey@student.42lyon.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/05/25 13:41:10 by frfrey            #+#    #+#              #
-#    Updated: 2020/05/25 13:53:36 by frfrey           ###   ########lyon.fr    #
+#    Updated: 2020/05/25 14:07:24 by frfrey           ###   ########lyon.fr    #
 #                                                                              #
 # **************************************************************************** #
 
 import sys
 
-if (len(sys.argv) == 2):
+if (len(sys.argv) == 2 and sys.argv[1].isnumeric()):
     nb = int(sys.argv[1])
     if (nb == 0):
         print("I'm Zero")
